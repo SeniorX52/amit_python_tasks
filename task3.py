@@ -1,3 +1,4 @@
+
 def decode_msg(msg):
     core_msg = "".join([char for char in msg if char.isalpha() or char == " "])
     first_word, second_word = core_msg.split()
